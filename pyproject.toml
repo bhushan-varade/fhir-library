@@ -3,14 +3,14 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "fhir_simple"
-version = "0.1.0"
-description = "A library to simplify FHIR Patient objects to basic JSON."
+name = "fhir_flex"
+version = "0.0.1"
+description = "A flexible library to simplify and map FHIR Patient objects to custom JSON schemas."
 authors = [
     { name = "Bhushan Varade", email = "bvarade02@gmail.com" }
 ]
 license = { text = "MIT" }
-keywords = ["fhir", "patient", "json", "healthcare"]
+keywords = ["fhir", "patient", "json", "healthcare", "flexible"]
 requires-python = ">=3.6"
 
 
